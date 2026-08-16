@@ -105,6 +105,10 @@ on:
         description: "是否切换sus提交"
         required: true
         default: false
+      sus_version:
+        description: "sus分支"
+        required: true
+        default: "123456789"
 
 jobs:
   build:
